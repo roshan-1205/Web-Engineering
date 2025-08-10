@@ -1,2 +1,123 @@
 # Web-Engineering
 Question 1
+
+<!-- Create an HTML page that includes: 
+ a) A table displaying your educational qualifications.
+ b) Another table on the same page showing your Class 10th subject-wise marks, along with the total, percentile and grade. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+ </head>
+ <body style="height: 200vh;">
+    <table border="2" align="center" bgcolor="pink" height="50px" width="200px" cellspacing="2px" cellpadding="16px">
+        <caption><h1>Educational Qualifications</h1></caption>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Qualification / Course</th>
+                <th>Institution</th>
+                <th>Status / Achievement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2023 - Present</td>
+                <td>Bachelor of Technology (Computer Science & Engineering)</td>
+                <td>AKS University, Satna</td>
+                <td>Pursuing</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Web Development Certification</td>
+                <td>Department of Computer Science, AKS University</td>
+                <td>Completed with Excellence in 10 Modules</td>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>Git & GitHub Training</td>
+                <td>AKS University / Self-study</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Hackathon - Trillx 1.0</td>
+                <td>AKS University</td>
+                <td>Participated</td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="margin-top: 150px;" border="2" align="center" bgcolor="pink" height="50px" width="200px" cellspacing="2px" cellpadding="16px">
+        <caption><h1 style="font-size: 21px;">Class 10<sup>th</sup>Examination - Subject-wise Marks</h1></caption>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Maximum Marks</th>
+                <th>Marks Obtained</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>100</td>
+                <td>74</td>
+                <td>74%</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>100</td>
+                <td>78</td>
+                <td>78%</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Sanskrit</td>
+                <td>100</td>
+                <td>80</td>
+                <td>80%</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>100</td>
+                <td>69</td>
+                <td>69%</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>100</td>
+                <td>72</td>
+                <td>72%</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Social Science</td>
+                <td>100</td>
+                <td>76</td>
+                <td>76%</td>
+                <td>B+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>600</th>
+                <th>449</th>
+                <th>74.83%</th>
+                <th>B+</th>
+            </tr>
+        </tfoot>
+    </table>
+    <footer style="margin: 50px 500px 0;">
+        <h3>Percentile: 78.4</h3>
+        <h3>Overall Grade: B+</h3>
+    </footer>
+ </body>
+ </html>
