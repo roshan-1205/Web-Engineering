@@ -11,7 +11,10 @@
  </head>
  <body style="height: 200vh;">
     <table border="2" align="center" bgcolor="pink" height="50px" width="200px" cellspacing="2px" cellpadding="16px">
-        <caption><h1>Educational Qualifications</h1></caption>
+        <caption>
+            <h1>Educational Qualifications</h1>
+            <h3>Roshan Kumar Singh</h3>
+        </caption>
         <thead>
             <tr>
                 <th>Year</th>
