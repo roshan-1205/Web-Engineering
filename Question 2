@@ -1,0 +1,37 @@
+<!-- Using the <canvas> tag in HTML & Javascript, draw an emoji. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 2</title>
+</head>
+<body>
+    <canvas style="margin-left: 30%;" id="smileyCanvas" width="300" height="300"></canvas>
+    <script>
+        const canvas = document.getElementById('smileyCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Face
+        ctx.beginPath();
+        ctx.arc(150, 150, 100, 0, Math.PI * 2, true);
+        ctx.fillStyle = 'yellow';
+        ctx.fill();
+        ctx.stroke();
+
+        // Eyes
+        ctx.beginPath();
+        ctx.arc(110, 120, 15, 0, Math.PI * 2, true);
+        ctx.arc(190, 120, 15, 0, Math.PI * 2, true);
+        ctx.fillStyle = 'black';
+        ctx.fill();
+
+        // Smile
+        ctx.beginPath();
+        ctx.arc(150, 170, 50, 0, Math.PI, false);
+        ctx.fillStyle = 'brown';
+        ctx.fill();
+        ctx.stroke();
+    </script>
+</body>
+</html>
